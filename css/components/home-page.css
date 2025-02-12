@@ -1,0 +1,108 @@
+#home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: darkgray;
+}
+#home-page div{
+    background-color: deepskyblue;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px 4px black;
+}
+#home-page div p{
+    padding: 0;
+    margin: 0;
+}
+#home-page div p:nth-child(1), #home-page div p:nth-child(2){
+    font-weight: 700;
+}
+
+@media  (max-width: 2550px){
+    #home-page div{
+        width: 50%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #home-page div p:nth-child(1){
+        font-size: 20px;
+    }
+    #home-page div p:nth-child(2){
+        font-size: 60px;
+    }
+    #home-page div p:nth-child(3){
+        font-size: 40px;
+        width: 85%;
+    }
+}
+
+
+@media  (max-width: 1441px){
+    #home-page div{
+        width: 44%;
+        padding: 16px;
+    }
+    #home-page div p:nth-child(2){
+        font-size: 38px;
+    }
+    #home-page div p:nth-child(3){
+        font-size: 22px;
+    }
+}
+
+
+@media  (max-width: 1025px){
+    #home-page div{
+        width: 50%;
+        padding: 23px;
+    }
+    #home-page div p:nth-child(1){
+        font-size: 17px;
+    }
+    #home-page div p:nth-child(2){
+        font-size: 38px;
+    }
+    #home-page div p:nth-child(3){
+        font-size: 22px;
+    }
+}
+
+@media  (max-width: 769px){
+    #home-page div{
+        width: 60%;
+        padding: 20px;
+    }
+
+    #home-page div p:nth-child(1){
+        font-size: 14px;
+    }
+    #home-page div p:nth-child(2){
+        font-size: 35px;
+    }
+    #home-page div p:nth-child(3){
+        font-size: 22px;
+    }
+}
+
+@media  (max-width: 426px){
+    #home-page div{
+        width: 75%;
+        padding: 15px;
+    }
+    #home-page div p:nth-child(1), #home-page div p:nth-child(2){
+        font-weight: 700;
+    }
+    #home-page div p:nth-child(1){
+        font-size: 11px;
+    }
+    #home-page div p:nth-child(2){
+        font-size: 30px;
+    }
+    #home-page div p:nth-child(3){
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
