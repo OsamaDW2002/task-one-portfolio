@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background-color: darkgray;
+
 }
 #home-page div{
-    background-color: deepskyblue;
+    background-color: #577BC1;
     border-radius: 10px;
-    box-shadow: 0 1px 10px 4px black;
+    box-shadow: 0 5px 7px 4px #344CB7;
 }
 #home-page div p{
     padding: 0;
@@ -16,6 +16,13 @@
 }
 #home-page div p:nth-child(1), #home-page div p:nth-child(2){
     font-weight: 700;
+}
+#home-page div p:nth-child(1){
+    color: #d7cf69;
+
+}
+#home-page div p:nth-child(3), #home-page div p:nth-child(2){
+    color: #000957
 }
 
 @media  (max-width: 25700px){
@@ -40,7 +47,7 @@
 }
 
 
-@media  (max-width: 1441px){
+@media  (max-width: 2341px){
     #home-page div{
         width: 44%;
         padding: 16px;

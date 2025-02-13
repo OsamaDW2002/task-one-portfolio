@@ -1,19 +1,23 @@
 nav {
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: darkgray;
     align-items: center;
-    overflow: scroll;
+    box-shadow: 0 -4px 23px 20px #344CB7 ;
+    z-index: 10;
+    background-color: #000957;
 }
 nav ol {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0;
+    color: #d7cf69;
 }
 nav ol li a {
     text-decoration: none;
+    color: #d7cf69;
 }
 nav ol li {
     font-weight: 600;

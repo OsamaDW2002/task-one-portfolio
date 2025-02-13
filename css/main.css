@@ -1,4 +1,8 @@
 body{
     width: 100%;
     margin: 0;
+    background-color: #465afc;
+}
+*{
+    color: #000957;
 }
