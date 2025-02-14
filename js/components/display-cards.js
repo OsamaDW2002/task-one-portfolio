@@ -4,8 +4,7 @@ const projects = document.getElementById('projects');
 
 repos.forEach((repo)=>{
     const card = document.createElement("div");
-    card.classList.add("card"); // Add a class for styling (optional)
-
+    card.classList.add("card");
     card.innerHTML = `
         <img loading="lazy" src="${repo.image}" alt="repo image">
         <div>
