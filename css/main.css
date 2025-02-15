@@ -7,3 +7,6 @@ body{
     color: #000957;
     font-family: sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
