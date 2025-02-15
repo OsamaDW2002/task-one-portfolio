@@ -1,7 +1,7 @@
 export const icons =
     [
         {
-            mobile: '@/images/icons/mobile/facebook-svgrepo-com.svg',
+            mobile: 'تلimages/icons/mobile/facebook-svgrepo-com.svg',
             tablet: 'images/icons/tablet/facebook-svgrepo-com.svg',
             desktop: 'images/icons/desktop/facebook-svgrepo-com.svg',
             link: 'https://www.facebook.com/osamaM.dweikat.16',
