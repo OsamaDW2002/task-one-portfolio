@@ -18,6 +18,52 @@ footer p {
     color: #d7cf69;
 }
 
+
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 6px;
+    width: 200px;
+}
+
+#contact-form button:hover {
+    background-color: #e68900;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 @media (max-width: 3500px){
     footer p {
         font-size: 42px;

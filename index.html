@@ -60,14 +60,24 @@
     </section>
 
     <script type="module" src="js/components/display-cards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <footer id="footer">
+<!--        <div>-->
+<!--            <p>osama.dw12@gmail.com</p>-->
+<!--            <p>+970 569750563</p>-->
+<!--        </div>-->
 
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    <script src="js/components/send-email.js"></script>
 
-    <footer id="footer" >
-    <div>
-        <p>osama.dw12@gmail.com</p>
-        <p>+970 569750563</p>
-    </div>
+        <p id="success-message" style="display: none; color: green;">Message Sent Successfully!</p>
     </footer>
+
     <script type="module" src="js/components/display-social-icons.js"></script>
 </body>
 </html>
