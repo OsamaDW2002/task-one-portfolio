@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="css/components/card.css">
     <link rel="stylesheet" href="css/components/footer.css">
     <link rel="stylesheet" href="css/components/projects.css">
+    <link rel="stylesheet" href="css/components/display-elements-with-animation.css">
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
+    <script type="module" src="js/components/scroll-animation/display-elements-with-animation.js"></script>
     <nav>
         <img src="images/logo/logo.jpg" alt="logo"/>
         <ol>
@@ -24,7 +26,7 @@
         </ol>
     </nav>
     <div style="height: 100px; width: 100%"></div>
-    <main id="home-page">
+    <main id="home-page" class="hidden">
         <div>
             <p>Hi, my name is </p>
             <p>Osama Dweikat </p>
@@ -36,7 +38,7 @@
             </p>
         </div>
     </main>
-    <section id="about">
+    <section id="about" class="hidden">
         <div>
             <div>
                 <span><img loading="lazy" src="images/profile/proflie.jpg" alt="profile"></span>
@@ -52,14 +54,14 @@
             </div>
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="hidden">
 
     </section>
 
     <script type="module" src="js/components/display-cards.js"></script>
 
 
-    <footer id="footer">
+    <footer id="footer" >
     <div>
         <p>osama.dw12@gmail.com</p>
         <p>+970 569750563</p>
