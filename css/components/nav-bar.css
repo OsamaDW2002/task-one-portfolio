@@ -22,6 +22,35 @@ nav ol li a {
 nav ol li {
     font-weight: 600;
 }
+
+
+nav ol li a {
+    position: relative;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ol li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background: #ff9800;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+
+nav ol li a.active {
+    color: #ff9800;
+}
+
+nav ol li a.active::after {
+    width: 100%;
+    left: 0;
+}
+
 @media (min-width: 1441px) {
     nav {
         height: 100px;
@@ -101,7 +130,7 @@ nav ol li {
         height: 60px;
     }
     nav ol{
-        width : 75%;
+        width : 100%;
     }
     nav ol li {
         font-size: 12px;
@@ -114,29 +143,3 @@ nav ol li {
     }
 }
 
-nav ol li a {
-    position: relative;
-    padding: 10px 15px;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-nav ol li a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -5px;
-    width: 0;
-    height: 3px;
-    background: #ff9800; /* Highlight color */
-    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
-}
-
-nav ol li a.active {
-    color: #ff9800; /* Change text color when active */
-}
-
-nav ol li a.active::after {
-    width: 100%;
-    left: 0;
-}
