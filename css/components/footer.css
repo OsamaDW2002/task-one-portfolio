@@ -25,7 +25,7 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 500px;
+    width: 400px;
     margin-top: 20px;
     align-items: center;
 }
