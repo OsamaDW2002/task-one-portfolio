@@ -85,4 +85,12 @@ textarea {
         flex-direction: column;
         justify-content: space-evenly;
     }
+    #contact-form {
+        gap: 10px;
+        width: 350px;
+        margin-top: 20px;
+        align-items: center;
+        padding: 30px;
+    }
+
 }
