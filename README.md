@@ -15,7 +15,7 @@ This is a personal portfolio website showcasing my projects, skills, and experie
 
 ## Live Link
 
-[Live Portfolio Website](#) *(https://osamadw2002.github.io/task-one-portfolio/)*
+[Live Portfolio Website](https://osamadw2002.github.io/task-one-portfolio/)
 
 ## How to Run the Project Locally
 
