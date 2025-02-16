@@ -22,4 +22,3 @@ icons.forEach(icon=>{
 const footer = document.getElementById('footer');
 footer.appendChild(iconContaier);
 console.log(iconContaier.innerHTML);
-

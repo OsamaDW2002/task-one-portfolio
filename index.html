@@ -15,69 +15,66 @@
 
 </head>
 <body>
-    <script src="js/components/scroll-animation/nav-bar-selections.js"></script>
-    <script type="module" src="js/components/scroll-animation/display-elements-with-animation.js"></script>
-    <nav>
-        <img src="images/logo/logo.jpg" alt="logo"/>
-        <ol>
-            <li><a href="#home-page" > Home Page</a></li>
-            <li><a href="#about" > About Me</a></li>
-            <li><a href="#projects" > Projects</a></li>
-            <li><a href="#footer" >Contact</a></li>
-        </ol>
-    </nav>
-    <div style="height: 100px; width: 100%"></div>
-    <main id="home-page" class="hidden">
+<script src="js/components/scroll-animation/nav-bar-selections.js"></script>
+<script type="module" src="js/components/scroll-animation/display-elements-with-animation.js"></script>
+<nav>
+    <img src="assets/images/logo/logo.jpg" alt="logo"/>
+    <ol>
+        <li><a href="#home-page" > Home Page</a></li>
+        <li><a href="#about" > About Me</a></li>
+        <li><a href="#projects" > Projects</a></li>
+        <li><a href="#footer" >Contact</a></li>
+    </ol>
+</nav>
+<div style="height: 100px; width: 100%"></div>
+<main id="home-page" class="hidden">
+    <div>
+        <p>Hi, my name is </p>
+        <p>Osama Dweikat </p>
+        <p>
+            I am a full-stack engineer with one year of experience,
+            currently completing an internship at ASAL Technologies.
+            You can explore my portfolio to learn more about my work
+            and projects.
+        </p>
+    </div>
+</main>
+<section id="about" class="hidden">
+    <div>
         <div>
-            <p>Hi, my name is </p>
-            <p>Osama Dweikat </p>
-            <p>
-                I am a full-stack engineer with one year of experience,
-                currently completing an internship at ASAL Technologies.
-                You can explore my portfolio to learn more about my work
-                and projects.
-            </p>
+            <span><img loading="lazy" src="assets/images/profile/proflie.jpg" alt="profile"></span>
         </div>
-    </main>
-    <section id="about" class="hidden">
         <div>
-            <div>
-                <span><img loading="lazy" src="images/profile/proflie.jpg" alt="profile"></span>
-            </div>
-            <div>
-                <p>Name: <span>Osama Mazen Dweikat</span> </p>
-                <p>Age: <span>21</span></p>
+            <p>Name: <span>Osama Mazen Dweikat</span> </p>
+            <p>Age: <span>21</span></p>
 
-                <p>country : <span>Palestine</span> </p>
-                <p>University: <span>An-Najah National University</span></p>
-                <p>Current Position: <span>Front-end Intern At ASAL Technologies</span></p>
-                <p>Skills : <span>ReactJS, NextJS, Chakra UI</span></p>
-            </div>
+            <p>country : <span>Palestine</span> </p>
+            <p>University: <span>An-Najah National University</span></p>
+            <p>Current Position: <span>Front-end Intern At ASAL Technologies</span></p>
+            <p>Skills : <span>ReactJS, NextJS, Chakra UI</span></p>
         </div>
-    </section>
-    <section id="projects" class="hidden">
+    </div>
+</section>
+<section id="projects" class="hidden">
 
-    </section>
+</section>
 
-    <script type="module" src="js/components/display-cards.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <footer id="footer">
-<!--        <div>-->
-<!--            <p>osama.dw12@gmail.com</p>-->
-<!--            <p>+970 569750563</p>-->
-<!--        </div>-->
+<script type="module" src="js/components/display-cards.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<footer id="footer">
 
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
     <script src="js/components/send-email.js"></script>
 
-        <p id="success-message" style="display: none; color: green;">Message Sent Successfully!</p>
-    </footer>
+    <p id="success-message" style="display: none; color: green;">Message Sent Successfully!</p>
+</footer>
 
-    <script type="module" src="js/components/display-social-icons.js"></script>
+<script type="module" src="js/components/display-social-icons.js"></script>
 </body>
 </html>
