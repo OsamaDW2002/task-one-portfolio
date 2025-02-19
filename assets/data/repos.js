@@ -9,7 +9,7 @@ export const repos = [
         title: 'ball-e-controller',
         description:  "It's a web application that controls a robotic system called Ball-E, which searches for and grips balls.",
         image:"assets/images/repos/github-svgrepo-com.png",
-        link:""
+        link:"https://github.com/OsamaDW2002/ball-e-controller"
     },
     {
         title: 'eco-track',
